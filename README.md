@@ -30,5 +30,5 @@ npm install
 # Start the React development server
 npm start
 
-# React runs at:   http://localhost:3000
-# Flask runs at:   http://localhost:5000
+React runs at:   http://localhost:3000
+Flask runs at:   http://localhost:5000
