@@ -1,13 +1,11 @@
-
 ## ⚙️ Setup Instructions
 
+```bash
 # Clone the repository
 git clone https://github.com/yourusername/skin-classifier.git
 cd skin-classifier
 
-# ===========================
-# 🔙 Backend Setup (Flask + ML)
-# ===========================
+# ---- Backend Setup (Flask + ML) ----
 cd backend
 
 # Create a virtual environment
@@ -24,9 +22,7 @@ pip install -r requirements.txt
 # Run the Flask server
 python app.py
 
-# ===========================
-# 🌐 Frontend Setup (React)
-# ===========================
+# ---- Frontend Setup (React) ----
 cd ../frontend
 
 # Install React dependencies
