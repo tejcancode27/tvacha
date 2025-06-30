@@ -1,0 +1,61 @@
+/* General page fade-in */
+.page-container {
+  opacity: 0;
+  animation: fadeIn 0.8s ease-in-out forwards;
+}
+
+/* Background gradient */
+.gradient-bg {
+  background: linear-gradient(to bottom right, #2c2c2c, #003f7f);
+}
+
+/* Card Hover Animation */
+.result-card, .symptom-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.result-card:hover, .symptom-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Button Hover Animation */
+.btn-custom {
+  transition: all 0.3s ease;
+  background-color: #0056b3;
+  color: white;
+}
+
+.btn-custom:hover {
+  background-color: #003f7f;
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Navbar link underline animation */
+.nav-link {
+  position: relative;
+  transition: color 0.2s ease-in-out;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  left: 0;
+  bottom: 0;
+  background-color: white;
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+/* Fade-in animation keyframes */
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}

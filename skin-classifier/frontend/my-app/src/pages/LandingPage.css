@@ -1,0 +1,10 @@
+.landing-page {
+    min-height: 100vh;
+    background: linear-gradient(to bottom right, #2c2c2c, #003366);
+    padding-top: 20px;
+  }
+  
+  .custom-navbar {
+    background-color: transparent;
+  }
+  
