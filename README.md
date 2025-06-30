@@ -1,7 +1,6 @@
 
 ## ⚙️ Setup Instructions
 
-```bash
 # Clone the repository
 git clone https://github.com/yourusername/skin-classifier.git
 cd skin-classifier
