@@ -1,20 +1,29 @@
 
 ## ⚙️ Setup Instructions
 
-# clone the repo
+clone the repo
 git clone https://github.com/yourusername/skin-classifier.git
 cd skin-classifier
 
-# (optional) create virtual env
-python -m venv venv
-source venv/bin/activate  # or venv\Scripts\activate on Windows
+bash
+cd backend
 
-# install dependencies
+create virtual environment
+python -m venv venv
+venv\Scripts\activate  # Windows
+OR
+source venv/bin/activate  # macOS/Linux
+
+install dependencies
 pip install -r requirements.txt
 
-# run backend
-cd backend
-python app.py  # or your main backend file
+run Flask app
+python app.py
 
-# run frontend (if needed)
-# open frontend/index.html in browser or run with a local server
+cd frontend
+
+install React dependencies
+npm install
+
+start development server
+npm start
